@@ -1,24 +1,20 @@
-#include <iostream>   // Для ввода и вывода
-#include <cmath>      // Для функции sqrt()
+#include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
-    double x;  // Переменная для хранения введённого числа
+    double x;
 
     cout << "Введите значение x: ";
-    cin >> x;  // Ввод числа с клавиатуры
+    cin >> x;
 
-    // Проверяем, что x неотрицательное
     if (x < 0) {
         cout << "Ошибка: подкоренное выражение не может быть отрицательным!" << endl;
-        return 0;  // Завершение программы
-    }
+        return 0;
 
-    // Вычисляем выражение 3*x - sqrt(x)
     double result = 3 * x - sqrt(x);
 
-    // Выводим результат
     cout << "Значение выражения 3*x - sqrt(x) при x = " << x << " равно " << result << endl;
 
-    return 0;  // Завершение программы
+    return 0;
 }
