@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int x;
+    cout << "Введите число: ";
+    cin >> x;
+    do{
+        cout << x % 10;
+        x /= 10;
+    }while(x != 0);
+    return 0;
+}
