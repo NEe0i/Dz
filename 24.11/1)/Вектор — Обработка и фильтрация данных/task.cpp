@@ -42,9 +42,7 @@ int main(){
     for (int x : odd) cout << x << " ";
     cout << endl;
 
-    double med = median(vec);
-    cout << "Медиана вектора: " << med << endl;
+    cout << "Медиана вектора: "  << endl;
 
     return 0;
-}
 }
