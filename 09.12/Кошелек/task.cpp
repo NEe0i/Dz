@@ -48,8 +48,8 @@ int main() {
 
     myWallet.addMoney(1000, 0, 20);
 
-    myWallet.spendMoney(2000, 150, 10); // Ошибка (не хватает долларов)
-    myWallet.spendMoney(2000, 50, 10);  // Успешно
+    myWallet.spendMoney(2000, 150, 10);
+    myWallet.spendMoney(2000, 50, 10);
 
     myWallet.displayBalance();
 
