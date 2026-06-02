@@ -49,7 +49,6 @@ while True:
         inp2 = input("Введите второе число (или 'm'): ").strip().lower()
         second_num = memory if inp2 in ("m", "м") else float(inp2)
 
-        # Вычисление и форматирование результата
         raw_result = func(first_num, second_num, op)
         formatted_result = format_result(raw_result)
         
