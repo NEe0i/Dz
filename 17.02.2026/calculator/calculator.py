@@ -23,7 +23,7 @@ def func(num1, num2, operation):
 
 def format_result(value):
     if not isinstance(value, (int, float)):
-        return value  # Если вернулась строка с ошибкой, отдаем как есть
+        return value 
     if value.is_integer():
         return int(value)
     return round(value, 2)
