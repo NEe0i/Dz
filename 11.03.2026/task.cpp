@@ -38,7 +38,6 @@ int main() {
     }
     string resultText = "";
     for (int code : decimalArray) {
-        // Ищем код в нашей карте
         if (asciiMap.find(code) != asciiMap.end()) {
             resultText += asciiMap[code];
         } else {
